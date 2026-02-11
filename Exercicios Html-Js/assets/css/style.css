@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  max-width: 640px;
+  max-width: 720px;
   margin: 50px auto;
   background: #fff;
   padding: 20px;
@@ -31,6 +31,7 @@ form input, form label, form button {
   width: 100%;
   margin-bottom: 10px;
 }
+
 
 form input {
   font-size: 24px;
@@ -55,4 +56,33 @@ form button {
 
 form button:hover {
   background: var(--primary-color-darker);
+}
+
+.information{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-result{
+  margin-right: 40px;
+  line-height: 2.3rem;
+}
+
+.section-imc{
+  line-height: 2.3rem;
+}
+
+h1{
+  margin-bottom: 2.2rem;
+}
+
+.paragrafo-resultado{
+  background-color: #08e984;
+  padding: 10px 10px;
+}
+
+.incorrect{
+  background: #c41d1d;
+  color: aliceblue;
+  padding: 10px 10px;
 }
