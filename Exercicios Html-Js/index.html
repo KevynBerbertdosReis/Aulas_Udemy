@@ -12,29 +12,41 @@
 <body>
 
   <section class="container">
-    <h1>Lorem ipsum dolor sit amet</h1>
+    <section class="information">
+    <div class="section-imc">
+    <h1>IMC</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      Repellendus nisi explicabo saepe voluptatibus consequuntur et corporis
-      maxime quos, doloribus vitae voluptatum quisquam necessitatibus
-      pariatur veritatis exercitationem beatae officiis suscipit Ea!
+      Menos que 18,5 <br>
+      Entre 18,5 e 24,9 <br>
+      Entre 25,0 e 29,9 <br>
+      Entre 30,0 e 34,9 <br>
+      Entre 35,0 e 39,9 <br>
+      Mais que 40,0
     </p>
+    </div>
+    <div class="section-result">
+      <h1>Resultado</h1>
+      <p>Abaixo do peso <br>
+        Peso normal <br>
+        Sobrepeso <br>
+        Obesidade grau 1 <br>
+        Obesidade grau 2 <br>
+        Obesidade grau 3 <br>
+      </p>
+    </div>
+    </section>
+    <h1>Calcule seu IMC</h1>
+    <form action="" id="formulario" method="post">
+        <label for="input-test1">Peso</label>
+        <input type="text" id="peso">
 
-    <form action="">
-        <label for="input-test1">Teste label 1</label>
-        <input type="text" id="input-test1">
+        <label for="input-test2">Altura</label>
+        <input type="text" id="altura">
 
-        <label for="input-test2">Teste label 2</label>
-        <input type="text" id="input-test2">
-
-        <label for="input-test2">Teste label 3</label>
-        <input type="text" id="input-test3">
-
-        <label for="input-test2">Teste label 4</label>
-        <input type="text" id="input-test4">
-
-        <button>Enviar</button>
+        <button type="submit">Enviar</button>
     </form>
+
+    <div id="resultado"></div>
   </section>
 
   <script src="./assets/js/main.js"></script>
